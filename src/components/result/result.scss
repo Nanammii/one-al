@@ -1,0 +1,46 @@
+.result {
+  font-family: Test Söhne, sans-serif;;
+}
+
+.result__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 49px 65px 49px 66px;
+}
+
+.result__image-container {
+  padding-bottom: 35px;
+}
+
+.result__image {
+  display: block;
+  min-height: 529px;
+  box-shadow: 0 0 10px #5FBB9780;
+  border-radius: 50px;
+  object-fit: cover;
+}
+
+.result__buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.result__button {
+  padding: 15px 92px 14px;
+  background-color: #00CC99;
+  box-shadow: 0 0 20px #080F0FBF;
+  border-radius: 50px;
+  font-size: 27px;
+  line-height: 36px;
+  color: #FFF7FC;
+
+  &--more {
+    color: #080708;
+    background-color: #FCEFF9;
+    box-shadow: 0 0 20px #080F0F80;
+    padding-inline: 36px;
+  }
+}

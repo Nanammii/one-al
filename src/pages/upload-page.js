@@ -7,7 +7,6 @@ function UploadPage(props) {
     <PageLayout>
       <Upload />
     </PageLayout>
-
   );
 }
 

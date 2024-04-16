@@ -7,7 +7,7 @@ function LoginPage(props) {
   return (
       <div className="login-page">
         <ButtonClose onClick={props.onClose} />
-        <FormLogin />
+        <FormLogin onClick={props.onClose} />
       </div>
   );
 }
