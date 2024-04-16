@@ -1,5 +1,6 @@
 import React from 'react';
 import "./gallery.scss";
+import {Link} from "react-router-dom";
 
 
 function Gallery(props) {
@@ -8,12 +9,16 @@ function Gallery(props) {
       <div className="gallery__wrapper">
         <ul className="gallery__list">
           <li className="gallery__item">
-            <img className="gallery__image" src="./img/1379727083461.jpg"/>
-            <span className="gallery__text">Lego</span>
+            <Link className="gallery__link" to={"/"}>
+              <img className="gallery__image" src="./img/1379727083461.jpg"/>
+              <span className="gallery__text">Lego</span>
+            </Link>
           </li>
           <li className="gallery__item">
-            <img className="gallery__image" src="./img/1379727294060.jpg"/>
-            <span className="gallery__text">Lego</span>
+            <Link className="gallery__link" to={"/"}>
+              <img className="gallery__image" src="./img/1379727294060.jpg"/>
+              <span className="gallery__text">Lego</span>
+            </Link>
           </li>
         </ul>
       </div>

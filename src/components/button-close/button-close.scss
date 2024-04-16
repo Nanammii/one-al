@@ -1,0 +1,38 @@
+.button-wrapper {
+  position: relative;
+}
+
+.button-close {
+  position: absolute;
+  top: 22px;
+  right: 62px;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+  z-index: 5;
+  background: transparent;
+
+
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: -3px;
+    width: 36px;
+    height: 3px;
+    background-color: #FC440F;
+    border-radius: 50px;
+  }
+
+  &::before {
+    transform: rotate(45deg);
+    box-shadow: none;
+  }
+
+  &::after {
+    transform: rotate(-45deg);
+  }
+}

@@ -1,0 +1,23 @@
+.footer {
+  background-color: #fceff9;
+  color: #080708;
+  border-radius: 50px 50px 0 0;
+  font-family: "SF Pro Display", sans-serif;
+}
+
+.footer__wrapper {
+  padding-top: 31px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer__text {
+  margin: 0;
+  padding: 0 13.5px;
+
+  &--copyright {
+    font-weight: 200;
+  }
+}
