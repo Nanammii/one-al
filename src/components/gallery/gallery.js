@@ -9,13 +9,13 @@ function Gallery(props) {
       <div className="gallery__wrapper">
         <ul className="gallery__list">
           <li className="gallery__item">
-            <Link className="gallery__link" to={"/"}>
+            <Link className="gallery__link" to={"/upload"}>
               <img className="gallery__image" src="./img/1379727083461.jpg"/>
               <span className="gallery__text">Lego</span>
             </Link>
           </li>
           <li className="gallery__item">
-            <Link className="gallery__link" to={"/"}>
+            <Link className="gallery__link" to={"/upload"}>
               <img className="gallery__image" src="./img/1379727294060.jpg"/>
               <span className="gallery__text">Lego</span>
             </Link>

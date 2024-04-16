@@ -9,7 +9,7 @@ function Header(props) {
         <Link className="header__link" to={"/"}>
           <span className="header__logo">OneAI</span>
         </Link>
-        <button className="header__button" onClick={props.onClick}>
+        <button className="header__button button" onClick={props.onClick}>
           <span className="header__button-text">Sign in</span>
         </button>
       </div>

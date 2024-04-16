@@ -1,0 +1,80 @@
+.upload__wrapper {
+  display: flex;
+  flex-direction: column;
+  padding-top: 52px;
+  padding-bottom: 157px;
+}
+
+.upload__button-wrapper {
+  padding: 0 34px 50px;
+}
+
+.upload__button {
+  padding: 7.5px 21px 7.5px 50px;
+  position: relative;
+  align-self: start;
+  background-color: #FCEFF9;
+  box-shadow: 0 0 20px #08070880;
+  border-radius: 30px;
+  font-size: 30px;
+  line-height: 40px;
+  font-family: Test Söhne, sans-serif;
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: 18px;
+    left: 21px;
+    width: 18px;
+    height: 18px;
+    background: url("../../../public/img/icon-arrow.svg") no-repeat;
+    background-size: 18px 18px;
+  }
+}
+
+.upload__image-wrapper {
+  margin: 0 30px;
+  background-color: #eee5e900;
+  box-shadow: inset 3px 3px 6px #EEE5E9;
+  border: 3px solid #EEE5E9;
+  border-radius: 20px;
+}
+
+.upload__actions {
+  display: flex;
+  gap: 22px;
+  padding: 40px 33px 0 34px;
+}
+
+.upload__image {
+  display: block;
+  min-height: 315px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.upload__icon {
+  width: 77px;
+  height: 60px;
+}
+
+.upload__link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 143px;
+  padding: 17px 10px;
+  background: transparent linear-gradient(135deg, #FFF7FC66 0%, #FFFFFF66 0%, #FFFFFF00 100%);
+  box-shadow: inset 3px 3px 6px #EEE5E9;
+  border-radius: 20px;
+  backdrop-filter: blur(20px);
+}
+
+.upload__text {
+  display: block;
+  padding-top: 10px;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  font-family: Test Söhne, sans-serif;
+}

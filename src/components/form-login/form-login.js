@@ -13,7 +13,7 @@ function FormLogin() {
           <label className="form__label"></label>
           <input className="form__input" type="password" placeholder="Password" name="password" />
         </fieldset>
-        <button className="form__button" type="button">Sign in</button>
+        <button className="form__button button" type="button">Sign in</button>
       </div>
 
     </form>

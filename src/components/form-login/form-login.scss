@@ -1,6 +1,7 @@
 .form__wrapper {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 20px;
   padding: 294px 62px 293px;
 }
@@ -10,4 +11,32 @@
   margin: 0;
   border: none;
   background-color: inherit;
+}
+
+.form__input {
+  width: 100%;
+  padding: 9px 20px;
+  font-size: 25px;
+  line-height: 33px;
+  background: #FCEFF9;
+  box-shadow: 0 0 20px #08070880;
+  border: 2px solid #080708;
+  border-radius: 30px;
+
+  &:placeholder-shown {
+    opacity: 0.5;
+  }
+}
+
+.form__button {
+  padding: 11px 45px;
+  margin-top: 20px;
+  max-width: 169px;
+  color: #FFF7FC;
+  background-color: #00CC99;
+  box-shadow: 0 0 20px #08070880;
+  border-radius: 30px;
+  font-size: 25px;
+  line-height: 33px;
+  font-family: Test Söhne, sans-serif;
 }

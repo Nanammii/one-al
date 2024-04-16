@@ -22,7 +22,7 @@ body {
   line-height: 24px;
   font-weight: 400;
   background: #ffffff;
-  color: #000000;
+  color: #080708;
   box-sizing: border-box;
 }
 
@@ -67,6 +67,16 @@ img {
   width: 375px;
   margin: 0 auto;
   overflow-x: auto;
-  background: #f0e7ed;
+  background: #F0E7ED 0% 0% no-repeat padding-box;
+  opacity: 1;
   backdrop-filter: blur(50px);
+}
+
+.button {
+  font-size: inherit;
+  line-height: inherit;
+  font-family: inherit;
+  background: transparent;
+  border: none;
+  cursor: pointer;
 }
