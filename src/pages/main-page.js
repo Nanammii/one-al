@@ -10,10 +10,12 @@ function MainPage(props) {
 
   const handleOpenModal = () => {
     setIsModalActive(true);
+    document.body.style.overflow = 'hidden';
   }
 
   const handleCloseModal = () => {
     setIsModalActive(false);
+    document.body.style.overflow = 'auto';
   }
 
   return (

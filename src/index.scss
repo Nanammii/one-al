@@ -12,6 +12,7 @@
   src: url("https://raw.githubusercontent.com/blaisck/sfwin/master/SFPro/TrueType/SFProDisplay-Regular.ttf");
 }
 
+
 body {
   height: 100%;
   min-width: 375px;
@@ -24,6 +25,10 @@ body {
   background: #ffffff;
   color: #080708;
   box-sizing: border-box;
+}
+
+body ~ .login-page {
+  overflow-y: hidden;
 }
 
 *, ::after, ::before {
@@ -66,9 +71,9 @@ img {
   right: 0;
   width: 375px;
   margin: 0 auto;
+  height: 100%;
   overflow-x: auto;
-  background: #F0E7ED 0% 0% no-repeat padding-box;
-  opacity: 1;
+  background: #F0E7ED;
   backdrop-filter: blur(50px);
 }
 
