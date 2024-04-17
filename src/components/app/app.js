@@ -6,7 +6,7 @@ import ResultPage from "../../pages/result-page";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={window.location.pathname || ''}>
       <Routes>
         <Route path={"/"} element={<MainPage />} />
         <Route path={"/upload"} element={<UploadPage />} />
